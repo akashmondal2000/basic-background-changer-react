@@ -1,0 +1,16 @@
+.container{
+    @apply h-screen w-full bg-slate-700
+}
+
+.colorBar{
+    @apply fixed flex justify-center flex-wrap bottom-12 inset-x-0 px-2
+}
+
+.barWrapper{
+    @apply flex flex-wrap justify-center gap-3;
+    @apply bg-[#e8e8e8] px-3 py-2 rounded-xl shadow-2xl
+}
+
+.colorBtn{
+    @apply outline-none px-4 py-1 rounded-full text-white shadow-inner 
+}
